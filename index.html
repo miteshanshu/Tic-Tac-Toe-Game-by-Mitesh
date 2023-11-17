@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game by Mitesh</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+  <div class="game-container">
+    <!-- Adding player name inputs -->
+    <div class="player-names">
+      <label for="playerInputX">Player X: </label>
+      <input type="text" id="playerInputX" placeholder="Enter name for X">
+      <label for="playerInputO">Player O: </label>
+      <input type="text" id="playerInputO" placeholder="Enter name for O">
+    </div>
+    <div class="game-board" id="game-board">
+      <!-- Cells for the game board -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <div id="game-status"></div>
+    <button onclick="restartGame()" id="restartButton">Restart Game</button> <!-- Restart button -->
+  </div>
+  <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
